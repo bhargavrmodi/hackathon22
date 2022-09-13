@@ -1,0 +1,7 @@
+{
+        "/": {
+                "target": "https://footlose-backend.azurewebsites.net",
+                "secure": false,
+                "changeOrigin": true
+        }
+}

@@ -1,0 +1,8 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8342d1cd-65a5-4457-997a-248a8d0b8480/resourceGroups/bitrebels-rg/providers/Microsoft.Web/sites/footlose-frontend",
+    "appService.deploySubpath": "dist",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}

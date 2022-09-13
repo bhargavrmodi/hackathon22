@@ -1,0 +1,7 @@
+::ng-deep span.ct-label.ct-vertical.ct-start {
+        margin-left: 6px;
+}
+
+::ng-deep span.ct-label.ct-horizontal.ct-end {
+        justify-content: center;
+}

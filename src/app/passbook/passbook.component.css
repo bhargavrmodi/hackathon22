@@ -1,0 +1,7 @@
+::ng-deep .card .card-header-passbook{
+        background-color: seagreen;
+}
+
+::ng-deep .card .card-title, .card .card-category-passbook {
+        color: white;
+}

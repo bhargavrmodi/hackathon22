@@ -1,0 +1,11 @@
+.calc-card-header {
+    background-color: seagreen;
+}
+
+.calc-card-title {
+    color: white;
+}
+
+::ng-deep div.footerbar {
+    display: none !important;
+}

@@ -1,0 +1,62 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-passbook">
+                      <h4 class="card-title card-title-passbook">Karma Points Passbook</h4>
+                      <p class="card-category card-category-passbook">Check your detailed statement:</p>
+                  </div>
+                  <div class="card-body">
+                      <div class="table-responsive">
+                          <table class="table">
+                              <thead class=" text-primary">
+                                  <th>
+                                      User ID
+                                  </th>
+                                  <th>
+                                      Month/Year
+                                  </th>
+                                  <th>
+                                      Karma Points
+                                  </th>
+                                  <th>
+                                      Description
+                                  </th>
+                                  <th>
+                                      Transaction DateTime
+                                  </th>
+                                  <!-- <th>Mode</th> -->
+                            
+                              </thead>
+                              <tbody>
+                                  <tr *ngFor="let x of listOfTransactions">
+                                      <td>
+                                          {{x.userId}}
+                                      </td>
+                                      <td>
+                                          {{x.monthYear}}
+                                      </td>
+                                      <td>
+                                          {{x.karmaPoints}}
+                                      </td>
+                                      <td>
+                                          {{x.description}}
+                                      </td>
+                                      <td class="text-primary">
+                                            {{x.transactionDateTime}}
+                                      </td>
+                                      <!-- <td>
+                                          {{x.mode}}
+                                      </td> -->
+                                  </tr>
+                                
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

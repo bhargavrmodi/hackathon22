@@ -1,0 +1,47 @@
+.news-logo {
+        height: 80px;
+        width: 160px;
+}
+
+.card-plain .card-body {
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+}
+
+.card-title,
+.card-category {
+        padding-right: 10px;
+}
+
+p.card-category {
+        text-align: justify;
+        padding-top: 10px;
+}
+
+h3.card-title {
+        text-align: left;
+}
+
+.card-icon.news-icon {
+        padding: 5px;
+}
+
+::ng-deep .card [class*=card-header-] .card-icon.news-icon,
+.card [class*=card-header-] .card-text {
+        padding: 5px;
+}
+
+.mat-chip.mat-standard-chip {
+        min-height: 24px;
+        border-radius: 10px;
+}
+
+mat-chip.news-mat-chip {
+        font-size: 18px;
+        padding:20px;
+}
+
+.card.card-stats.news-card {
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.8) !important;
+}

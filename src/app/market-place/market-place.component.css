@@ -1,0 +1,109 @@
+.karma-points-card {
+    width: 10rem;
+    margin-left: 75%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border: 2px solid blue;
+}
+
+mat-tab-group {
+    align-items: center;
+}
+
+::ng-deep .style-succes .mat-simple-snackbar {
+    color: green;
+}
+
+::ng-deep .mat-snack-bar-container {
+    background: whitesmoke;
+    margin-left: 130px !important;
+}
+
+::ng-deep .style-error .mat-simple-snackbar {
+    color: red;
+}
+
+::ng-deep .style-succes {
+    border: 1px solid green;
+}
+
+::ng-deep .style-error {
+    border: 1px solid red;
+}
+/* 
+::ng-deep .card {
+    margin: 0px;
+} */
+/* 
+::ng-deep .card-img-top {
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+} */
+
+.card-body-custom {
+    padding: 0.9375rem 10px !important;
+}
+
+.dark-grey-text {
+    color: darkgreen;
+    font-weight: 500;
+}
+
+img {
+    height: 180px;
+}
+
+.card-custom{
+    height: 400px !important;
+}
+
+.donate-card-custom  {
+    height: 480px !important;
+}
+
+::ng-deep .mat-tab-label {
+    font-size: 26px;
+    color: green;
+}
+
+::ng-deep .mat-tab-body-content {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+@media (max-width: 414px){ 
+    ::ng-deep .mat-tab-label {
+        font-size: 18px;
+    }
+}
+
+.card-category-custom {
+    font-size: 20px !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-title-custom {
+    font-size: 18px !important;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media (max-width: 414px){
+    .card-category-custom {
+        font-size: 14px !important;
+    }
+    
+    .card-title-custom {
+        font-size: 12px !important;
+    }
+
+    .karma-points-card {
+        width: 7.5rem;
+        margin-left: 65%;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        border: 2px solid blue;
+    }
+}
